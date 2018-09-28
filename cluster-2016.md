@@ -14,3 +14,13 @@ Update-ClusterFunctionalLevel
 ```console
 Get-ClusterLog -UseLocalTime
 ```
+
+## Metric’s can be manually configured as well
+### Cluster automatically assigned mode (default)
+```console
+(Get-ClusterNetwork “Cluster Network 1").AutoMetric = $true
+```
+### Manually set
+```console
+(Get-ClusterNetwork “Cluster Network 2").Metric = 40000
+```
