@@ -9,3 +9,8 @@ Get-Cluster | Select ClusterFunctionalLevel
 ```console
 Update-ClusterFunctionalLevel
 ```
+
+## Get Cluster Log
+```console
+Get-ClusterLog -UseLocalTime
+```
