@@ -4,3 +4,8 @@
 ```console
 Get-Cluster | Select ClusterFunctionalLevel
 ```
+
+## Update Cluster Level
+```console
+Update-ClusterFunctionalLevel
+```
