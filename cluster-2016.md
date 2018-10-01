@@ -24,3 +24,10 @@ Get-ClusterLog -UseLocalTime
 ```console
 (Get-ClusterNetwork “Cluster Network 2").Metric = 40000
 ```
+
+## Modifyin Heartbeats During Create Cluster
+```console
+HKLM\SYSTEM\CurrentControlSet\Services\ClusSvc\Parameters
+- SetHeartbeatThresholdOnClusterCreate
+- DWORD - 10
+```
