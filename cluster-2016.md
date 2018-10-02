@@ -31,3 +31,6 @@ HKLM\SYSTEM\CurrentControlSet\Services\ClusSvc\Parameters
 - SetHeartbeatThresholdOnClusterCreate
 - DWORD - 10
 ```
+
+# Reference
+https://docs.microsoft.com/en-us/windows-server/failover-clustering/failover-clustering-overview
