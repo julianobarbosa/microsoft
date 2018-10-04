@@ -32,5 +32,10 @@ HKLM\SYSTEM\CurrentControlSet\Services\ClusSvc\Parameters
 - DWORD - 10
 ```
 
+# SMB
+```console
+Get-SmbServerConfiguration
+```
+
 # Reference
 https://docs.microsoft.com/en-us/windows-server/failover-clustering/failover-clustering-overview
