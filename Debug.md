@@ -11,6 +11,7 @@ k
 kb
 !running -it
 !lmi <<drive>> "Driver information"
+!lmi ntfs
 lmvm <<drive>>
 lm n t
 
