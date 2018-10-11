@@ -15,3 +15,8 @@ lmvm <<drive>>
 lm n t
 
 ```
+
+# Prompt
+```console
+C:\Windows\System32\verifier /reset
+```
