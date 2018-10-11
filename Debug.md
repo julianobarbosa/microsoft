@@ -14,7 +14,7 @@ kb
 !lmi ntfs
 lmvm <<drive>>
 lm n t
-
+.tss 0x28
 ```
 
 # Prompt
