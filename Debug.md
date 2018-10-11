@@ -7,4 +7,11 @@
 vertarget
 !thread
 kc
+k
+kb
+!running -it
+!lmi <<drive>> "Driver information"
+lmvm <<drive>>
+lm n t
+
 ```
